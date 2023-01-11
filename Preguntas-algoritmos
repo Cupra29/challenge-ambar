@@ -1,0 +1,15 @@
+---------- Pregunta 1 -----------
+
+Crear una lista vacía para almacenar los pacientes por prioridad: "rojos", "naranjas" y "verdes"
+Iniciar un bucle infinito para recibir pacientes en el departamento de urgencias
+Dentro del bucle, pedir la información del paciente: color y tiempo de llegada
+Según el color del paciente, agregarlo a la lista correspondiente: "rojos", "naranjas" o "verdes"
+Ordenar la lista "rojos" por tiempo de llegada
+Ordenar la lista "naranjas" por tiempo de llegada
+Ordenar la lista "verdes" por tiempo de llegada
+Iniciar un bucle para atender a los pacientes
+Dentro del bucle, revisar si hay pacientes en la lista "rojos", si hay, atender al primero de la lista y eliminarlo de la lista
+Si no hay pacientes en la lista "rojos", revisar si hay pacientes en la lista "naranjas", si hay, atender al primero de la lista y eliminarlo de la lista
+Si no hay pacientes en la lista "naranjas", revisar si hay pacientes en la lista "verdes", si hay, atender al primero de la lista y eliminarlo de la lista
+Fin del bucle
+Repetir desde el paso 2.
